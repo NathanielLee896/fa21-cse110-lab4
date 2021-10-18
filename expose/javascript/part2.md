@@ -1,6 +1,7 @@
 # Expose Part 2 Lab 4
 
 1. ^^^ What will happen at line 12 and why? If the code causes an error, explain why. ^^^
+<br>
 At line 12, the console logs and displays the value of "i" which is the iterating variable. Since at line 19, prices is an array of size 3, the loop iterates three times hence having "i" = 3 thus returning 3. Since the index variable "i" is declared by var, it is function scoped hence able to be accessed by line 12.
 2. ^^^ What will happen at line 13 and why? If the code causes an error, explain why. ^^^
   1. At line 13, the console logs and displays the value of the last discountedPrice variable on line 7 which is "150". Since the discountedPrice variable is declared using a "var" keyword, it is function scoped hence declarable by line 13.
