@@ -1,9 +1,9 @@
 # Expose Part 2 Lab 4
 
 1. ^^^ What will happen at line 12 and why? If the code causes an error, explain why. ^^^ <br>
-At line 12, the console logs and displays the value of "i" which is the iterating variable. Since at line 19, prices is an array of size 3, the loop iterates three times hence having "i" = 3 thus returning 3. Since the index variable "i" is declared by var, it is function scoped hence able to be accessed by line 12.
+  - At line 12, the console logs and displays the value of "i" which is the iterating variable. Since at line 19, prices is an array of size 3, the loop iterates three times hence having "i" = 3 thus returning 3. Since the index variable "i" is declared by var, it is function scoped hence able to be accessed by line 12.
 2. ^^^ What will happen at line 13 and why? If the code causes an error, explain why. ^^^ <br>
-  At line 13, the console logs and displays the value of the last discountedPrice variable on line 7 which is "150". Since the discountedPrice variable is declared using a "var" keyword, it is function scoped hence declarable by line 13.
+  - At line 13, the console logs and displays the value of the last discountedPrice variable on line 7 which is "150". Since the discountedPrice variable is declared using a "var" keyword, it is function scoped hence declarable by line 13.
 3. ^^^ What will happen at line 14 and why? If the code causes an error, explain why. ^^^ <br>
   At line 14, the console logs and returns the value of the varaible finalPrice on line 8 after the for loop, which is then is the value "150". Since the variable "finalPrice" was declared using the "var" keyword on line 4, it is accessible by line 14 since it is function scoped.
 4. ^^^ What will this function return? Give a brief explanation why. If the code causes an error, explain why. ^^^ <br>
@@ -67,6 +67,8 @@ At line 12, the console logs and displays the value of "i" which is the iteratin
   The difference between the == and === operators is that for the == operator, it converts the types of the variable values to the same type before comparing the two values. On the other hand for the === operator, it does not change the types of the variable values and only returns true if not only the values are the same but also the type.
 
 
-
+17. If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result. (This should be in your part2.md). Here we are passing in a function as a parameter, however we can also return a function from another function just as easily, you're encouraged to play around with callbacks as they are used heavily in frontend JS development. 
+  18.
+ 
 
 
