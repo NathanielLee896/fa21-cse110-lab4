@@ -15,5 +15,58 @@
 7.  ^^^ What will happen at line 14 and why? If the code causes an error, explain why. ^^^
   1. On line 14, the console logs and displays the value of finalPrice which is "150". Although the finalPrice variable was declared using "let" since it is not within any other blocks, it is still accessible by line 14 hence, no errors. 
 8.  ^^^ What will this function return? Give a brief explanation. If the code causes an error, explain why. ^^^
-  1.  
+  1.  This function will return the values of the discounted array which are "[50, 100, 150]" since the discounted array was declared using "let" but is still accessible throughout the function where it is called since all operations on it is within its block scope.
+9.  ^^^ What will happen at line 11 and why? If the code causes an error, explain why. ^^^
+  1. At line 11, the function returns an error since "i" is still within a for loop when declared and was declared using "let" making it accessible only in the for loop and not in the rest of the function as "let" is block scoped. 
+10. ^^^ What will happen at line 12 and why? If the code causes an error, explain why. ^^^
+  1. At line 12, the console logs and displays the value of "length" on line 4 which is declared using the "const" keyword making it accessible to line 12. And since length is the length of the prices array which is size 3, it returns "3".
+11. ^^^ What will this function return? Give a brief explanation. If the code causes an error, explain why. ^^^
+  1. This function returns the value of the discounted prices which is "[50, 100, 150]". Since the variable discounted was declared using const, it is block scoped and it is not defined in an inner block thus does not return an error. 
+12.  Given the above Object, write the notation for:  (These should be in your part2.md)
+  1.  Accessing the value of the name property in the student object
+    1.    student.name;
+  2.  Accessing the value of the Grad Year property in the student object
+    1.    student['Grad Year'];
+  3. Calling the function for the greeting property in the student object
+    1. student.greeting();
+  4.  Accessing the name property of the object in the Favorite Teacher property in student
+    1.  student['Favorite Teacher'].name;
+  5.  Access the first index in the array of the courseLoad property of the student object
+    1.  student.courseLoad[0];
+13.  Arithmetic
+  1.  ‘3’ + 2
+    1.  32
+  2.  ‘3’ - 2
+    1.  1
+  3.  3 + null
+    1.  3
+  4.  ‘3’ + null
+    1.  3null
+  5.  true + 3
+    1.  4
+  6.  false + null
+    1.  0
+  7.  '3' + undefined
+    1.  3undefined
+  8.  '3' - undefined 
+    1. NaN
+14. Comparison
+  1.   ‘2’ > 1
+    1.   true
+  2.   ‘2’ < ‘12’
+    1.   false
+  3.   2 == ‘2’
+    1.   true
+  4.   2 === ‘2’
+    1.   false
+  5.   true == 2
+    1.  false
+  6.   true === Boolean(2)
+    1.  true
+15. Explain difference between the == and === operators.
+  1. The difference between the == and === operators is that for the == operator, it converts the types of the variable values to the same type before comparing the two values. On the other hand for the === operator, it does not change the types of the variable values and only returns true if not only the values are the same but also the type.
+
+
+
+
 
