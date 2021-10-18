@@ -70,6 +70,7 @@
 17. If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result. (This should be in your part2.md). Here we are passing in a function as a parameter, however we can also return a function from another function just as easily, you're encouraged to play around with callbacks as they are used heavily in frontend JS development. 
   - The result will be "[2,4,6]". I got this result because once the modifyArray function is called on line 13, it then goes to line 1 which goes to 2 then once it hits the for loop in line 3 and 4, the callback parameter is the function doSomething, so then the function doSomething is called then it goes to line 9 and 10 which doubles the number in the array. It does this three times since the size of the parameter array is given as size 3. Then at the end, it is returned to be "[2,4,6]". 
 
- 
+19. What is the output of the above code? (This should be in your part2.md)
+- The output of this code is "1" "4" "3" "2" on different lines in that order. 
 
 
